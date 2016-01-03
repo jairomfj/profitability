@@ -31,7 +31,9 @@ defmodule Profitability.Mixfile do
       {:cowboy, "~> 1.0.4"},
       {:plug, "~> 1.0.3"},
       {:mochiweb, "~> 2.12.2", [override: true]},
-      {:mochiweb_xpath, github: "retnuh/mochiweb_xpath", tag: "v1.2.0"}
+      {:mochiweb_xpath, github: "retnuh/mochiweb_xpath", tag: "v1.2.0"},
+      {:ecto, "~> 1.1.1"},
+      {:mariaex, "~> 0.6.1"}
     ]
   end
 end
