@@ -1,0 +1,2 @@
+defmodule Profitability do
+end
