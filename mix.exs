@@ -34,7 +34,8 @@ defmodule Profitability.Mixfile do
       {:mochiweb_xpath, github: "retnuh/mochiweb_xpath", tag: "v1.2.0"},
       {:ecto, "~> 1.1.1"},
       {:mariaex, "~> 0.6.1"},
-      {:poison, "~> 1.5.0"}
+      {:poison, "~> 1.5.0"},
+      {:joken, github: "bryanjos/joken", tag: "v1.0.0"}
     ]
   end
 end
