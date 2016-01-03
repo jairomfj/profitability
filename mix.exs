@@ -28,6 +28,8 @@ defmodule Profitability.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
+      {:cowboy, "~> 1.0.4"},
+      {:plug, "~> 1.0.3"},
       {:mochiweb, "~> 2.12.2", [override: true]},
       {:mochiweb_xpath, github: "retnuh/mochiweb_xpath", tag: "v1.2.0"}
     ]
