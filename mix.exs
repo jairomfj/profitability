@@ -14,7 +14,7 @@ defmodule Profitability.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger]]
+    [applications: [:logger, :mariaex, :ecto, :cowboy, :plug]]
   end
 
   # Dependencies can be Hex packages:
