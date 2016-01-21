@@ -4,7 +4,7 @@ defmodule Profitability.Mixfile do
   def project do
     [app: :profitability,
      version: "0.0.1",
-     elixir: "~> 1.1",
+     elixir: "~> 1.2.0",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps]
@@ -14,7 +14,7 @@ defmodule Profitability.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger, :mariaex, :ecto, :cowboy, :plug]]
+    [applications: [:logger, :mariaex, :ecto, :cowboy, :plug], mod: {Profitability, []}]
   end
 
   # Dependencies can be Hex packages:
@@ -35,7 +35,8 @@ defmodule Profitability.Mixfile do
       {:ecto, "~> 1.1.1"},
       {:mariaex, "~> 0.6.1"},
       {:poison, "~> 1.5.0"},
-      {:joken, github: "bryanjos/joken", tag: "v1.0.0"}
+      {:joken, github: "bryanjos/joken", tag: "v1.0.0"},
+      {:exrm, "~> 1.0.0-rc7"}
     ]
   end
 end
