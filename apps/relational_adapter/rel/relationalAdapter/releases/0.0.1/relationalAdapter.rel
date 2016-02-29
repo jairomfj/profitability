@@ -1,0 +1,10 @@
+{release,{"relationalAdapter","0.0.1"},
+         {erts,"7.2.1"},
+         [{elixir,"1.2.2"},
+          {stdlib,"2.7"},
+          {kernel,"4.1.1"},
+          {logger,"1.2.2"},
+          {relationalAdapter,"0.0.1"},
+          {compiler,"6.0.2"},
+          {iex,"1.2.2"},
+          {sasl,"2.6.1"}]}. 
