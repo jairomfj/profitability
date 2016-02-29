@@ -1,5 +1,13 @@
 /_build
 /cover
 /deps
+<<<<<<< HEAD
 erl_crash.dump
 *.ez
+=======
+/rel
+erl_crash.dump
+*.ez
+.idea
+*.iml
+>>>>>>> 376b4393f80deb27dce1c23033794f5990f0827a
