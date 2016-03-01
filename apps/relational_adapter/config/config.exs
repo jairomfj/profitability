@@ -28,3 +28,9 @@ use Mix.Config
 # here (which is why it is important to import them last).
 #
 #     import_config "#{Mix.env}.exs"
+config :relational_adapter_app, Repo,
+  adapter: Ecto.Adapters.Postgres,
+  database: "profitability",
+  username: "postgres",
+  password: "",
+  hostname: "localhost"
