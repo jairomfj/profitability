@@ -36,8 +36,6 @@ defmodule RestApi.Mixfile do
       {:plug, "~> 1.0.3"},
       {:mochiweb, "~> 2.12.2", [override: true]},
       {:mochiweb_xpath, github: "retnuh/mochiweb_xpath", tag: "v1.2.0"},
-      {:ecto, "~> 1.1.1"},
-      {:mariaex, "~> 0.6.1"},
       {:poison, "~> 1.5.0"},
       {:joken, github: "bryanjos/joken", tag: "v1.0.0"},
       {:exrm, "~> 1.0.0-rc7"}
