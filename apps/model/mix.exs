@@ -1,8 +1,8 @@
-defmodule RelationalAdapter.Mixfile do
+defmodule Model.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :relational_adapter,
+    [app: :model,
      version: "0.0.1",
      build_path: "../../_build",
      config_path: "../../config/config.exs",
@@ -18,7 +18,7 @@ defmodule RelationalAdapter.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger, :postgrex, :ecto, :timex], mod: {RelationalAdapter.App, []}]
+    [applications: [:logger]]
   end
 
   # Dependencies can be Hex packages:
@@ -36,11 +36,7 @@ defmodule RelationalAdapter.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-        {:postgrex, "~> 0.11.1"},
-        {:ecto, "~> 1.1.1"},
-        {:timex, "~> 2.1"},
-        {:timex_ecto, "~> 1.0"},
-        {:exrm, "~> 1.0.0-rc7"}
+        {:timex, "~> 2.1"}
     ]
   end
 end
